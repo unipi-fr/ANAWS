@@ -17,39 +17,7 @@
     "topology": {
         "computes": [],
         "drawings": [],
-        "links": [
-            {
-                "filters": {},
-                "link_id": "8a07b5c9-30b2-4417-b309-bb5108ec800e",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 74,
-                            "y": 23
-                        },
-                        "node_id": "fbece71e-c5e1-4511-9b2f-d0135f88902d",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": -6,
-                            "y": 22
-                        },
-                        "node_id": "8ad5452e-ed03-478a-b2a3-95f5eb6893ec",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            }
-        ],
+        "links": [],
         "nodes": [
             {
                 "compute_id": "local",
@@ -78,86 +46,6 @@
                 "width": 65,
                 "x": 51,
                 "y": -19,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5002,
-                "console_auto_start": false,
-                "console_type": "none",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 32,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Switch1",
-                    "x": 2,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "Switch1",
-                "node_id": "fbece71e-c5e1-4511-9b2f-d0135f88902d",
-                "node_type": "ethernet_switch",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "ports_mapping": [
-                        {
-                            "name": "Ethernet0",
-                            "port_number": 0,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet1",
-                            "port_number": 1,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet2",
-                            "port_number": 2,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet3",
-                            "port_number": 3,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet4",
-                            "port_number": 4,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet5",
-                            "port_number": 5,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet6",
-                            "port_number": 6,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet7",
-                            "port_number": 7,
-                            "type": "access",
-                            "vlan": 1
-                        }
-                    ]
-                },
-                "symbol": ":/symbols/ethernet_switch.svg",
-                "template_id": "1966b864-93e7-32d5-965f-001384eec461",
-                "width": 72,
-                "x": -209,
-                "y": -52,
                 "z": 1
             }
         ]
