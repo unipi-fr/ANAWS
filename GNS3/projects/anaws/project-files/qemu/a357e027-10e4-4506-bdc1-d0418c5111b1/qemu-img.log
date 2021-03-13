@@ -1,1 +1,0 @@
-Formatting '/home/anaws/ANAWS/GNS3/projects/anaws/project-files/qemu/a357e027-10e4-4506-bdc1-d0418c5111b1/hda_disk.qcow2', fmt=qcow2 size=524288000 backing_file=/home/anaws/GNS3/images/QEMU/frr-7.3.1.qcow2 cluster_size=65536 lazy_refcounts=off refcount_bits=16
