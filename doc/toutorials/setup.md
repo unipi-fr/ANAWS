@@ -2,6 +2,8 @@
 
 in this guide we will see how to setup the enviroment.
 
+We strongly suggest to create a Virtual Machine with your favourite Linux distribution and following the next istructions.
+
 ### GNS3
 
 in order to install GNS3 following the istructions guide made by GNS3:
