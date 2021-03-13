@@ -17,39 +17,7 @@
     "topology": {
         "computes": [],
         "drawings": [],
-        "links": [
-            {
-                "filters": {},
-                "link_id": "730e8190-cbb3-426e-9327-533fc37bf8bf",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "eth0",
-                            "x": 4,
-                            "y": 50
-                        },
-                        "node_id": "accd57e1-d1a1-4fa4-966c-0b4c2b8fdf67",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 68,
-                            "y": -5
-                        },
-                        "node_id": "8ad5452e-ed03-478a-b2a3-95f5eb6893ec",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            }
-        ],
+        "links": [],
         "nodes": [
             {
                 "compute_id": "local",
@@ -76,76 +44,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -221,
-                "y": 2,
-                "z": 1
-            },
-            {
-                "compute_id": "vm",
-                "console": 5000,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": "",
-                "height": 45,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "FRR7.3.1-1",
-                    "x": -6,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "FRR7.3.1-1",
-                "node_id": "accd57e1-d1a1-4fa4-966c-0b4c2b8fdf67",
-                "node_type": "qemu",
-                "port_name_format": "eth{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "adapter_type": "e1000",
-                    "adapters": 8,
-                    "bios_image": "",
-                    "bios_image_md5sum": null,
-                    "boot_priority": "c",
-                    "cdrom_image": "",
-                    "cdrom_image_md5sum": null,
-                    "cpu_throttling": 0,
-                    "cpus": 1,
-                    "create_config_disk": false,
-                    "hda_disk_image": "frr-7.3.1.qcow2",
-                    "hda_disk_image_md5sum": "e6bd9591a5c630bfe2c8688dc043b20b",
-                    "hda_disk_interface": "ide",
-                    "hdb_disk_image": "",
-                    "hdb_disk_image_md5sum": null,
-                    "hdb_disk_interface": "none",
-                    "hdc_disk_image": "",
-                    "hdc_disk_image_md5sum": null,
-                    "hdc_disk_interface": "none",
-                    "hdd_disk_image": "",
-                    "hdd_disk_image_md5sum": null,
-                    "hdd_disk_interface": "none",
-                    "initrd": "",
-                    "initrd_md5sum": null,
-                    "kernel_command_line": "",
-                    "kernel_image": "",
-                    "kernel_image_md5sum": null,
-                    "legacy_networking": false,
-                    "linked_clone": true,
-                    "mac_address": "0c:79:28:df:67:00",
-                    "on_close": "power_off",
-                    "options": "",
-                    "platform": "x86_64",
-                    "process_priority": "normal",
-                    "qemu_path": "/usr/bin/qemu-system-x86_64",
-                    "ram": 256,
-                    "replicate_network_connection_state": true,
-                    "usage": "Credentials: root / root\nIf you exit from the router CLI, you can get back by typing 'vtysh' to the console."
-                },
-                "symbol": ":/symbols/router.svg",
-                "template_id": "f5a9888e-b169-4765-9504-90b86e6cab16",
-                "width": 66,
-                "x": -8,
-                "y": -137,
+                "x": 51,
+                "y": -19,
                 "z": 1
             }
         ]
