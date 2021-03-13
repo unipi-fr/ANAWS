@@ -14,5 +14,5 @@ Opening GNS3 and make sure that all paths under:
 - Edit -> Preferences -> Binary Images (1 path) 
 Will point all to the respectly folders contained in the repository under `GNS3/*`
 
-![Paths of General Preferences](/images/paths-general.png "Paths of General Preferences")
-![Paths of Binary Images Preferences](/images/paths-binary-images.png "Paths of Binary Images Preferences")
+![Paths of General Preferences](https://github.com/unipi-fr/ANAWS/blob/main/doc/toutorials/images/paths-general.png "Paths of General Preferences")
+![Paths of Binary Images Preferences](https://github.com/unipi-fr/ANAWS/blob/main/doc/toutorials/images/paths-binary-images.png "Paths of Binary Images Preferences")
