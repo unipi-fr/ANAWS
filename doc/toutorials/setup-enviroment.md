@@ -1,4 +1,4 @@
-# Setup
+# Setup Enviroment
 
 in this guide we will see how to setup the enviroment.
 
