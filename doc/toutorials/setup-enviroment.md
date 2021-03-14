@@ -29,7 +29,7 @@ docker pull onosproject/onos
 ```
 Create ONOS Docker
 ```
-sudo docker run -t -d -p 8181:8181 -p 8101:8101 -p 5005:5005 -p 830:830 -p 6653:6653 --name onos onosproject/onos
+docker run -t -d -p 8181:8181 -p 8101:8101 -p 5005:5005 -p 830:830 -p 6653:6653 --name onos onosproject/onos
 ```
 If controller alredy present just start it
 ```
@@ -42,6 +42,6 @@ once started check if everithing is working
 - test apps:
     - `apps -a -s`
 - GUI via browser:
-    - `http://<controller-ip>:8181/onos/ui`
+    - `http://localhost:8181/onos/ui`
 - REST API
-    - `http://<controller-ip>:8181/onos/v1/docs128`
+    - `http://localhost:8181/onos/v1/docs128`
