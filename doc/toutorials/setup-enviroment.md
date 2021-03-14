@@ -42,6 +42,6 @@ once started check if everithing is working
 - test apps:
     - `apps -a -s`
 - GUI via browser:
-    - `http://localhost:8181/onos/ui`
+    - `http://localhost:8181/onos/ui` [(link)](http://localhost:8181/onos/ui)
 - REST API
-    - `http://localhost:8181/onos/v1/docs128`
+    - `http://localhost:8181/onos/v1/docs128` [(link)](http://localhost:8181/onos/v1/docs128)
