@@ -4,3 +4,4 @@ This repository was made for hosting all files and instructions to build the net
 
 ### Start with [setup enviroment](./doc/toutorials/setup-enviroment.md "setup-enviroment.md")
 - [GNS3](./doc/toutorials/setup-enviroment.md#GNS3 "GNS3") 
+- [ONOS](./doc/toutorials/setup-enviroment.md#ONOS "ONOS") 
