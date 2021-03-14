@@ -16,14 +16,8 @@ Opening GNS3 and make sure that all paths under:
 - Edit -> Preferences -> Binary Images (1 path) 
 Will point all to the respectly folders contained in the repository under `GNS3/*`
 
- <div class="row">
-  <div class="column">
-    <img src="./images/paths-general.png" alt="Paths of General Preferences" style="width:100%"/>
-  </div>
-  <div class="column">
-    <img src="./images/paths-binary-images.png" alt="Paths of Binary Images Preferences" style="width:100%"/>
-  </div>
-</div> 
+<img src="./images/paths-general.png" alt="Paths of General Preferences" style="width:49%"/>
+<img src="./images/paths-binary-images.png" alt="Paths of Binary Images Preferences" style="width:49%"/>
 
 
 
