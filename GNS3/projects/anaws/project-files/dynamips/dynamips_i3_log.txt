@@ -1,0 +1,26 @@
+Mar 14 12:29:32.381 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Mar 14 12:29:32.381 HYPERVISOR: Started on TCP port = 57207.
+Mar 14 12:29:32.393 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 14 12:29:32.394 HYPERVISOR: exec_cmd: hypervisor working_dir /home/anaws/ANAWS/GNS3/projects/anaws/project-files/dynamips 
+Mar 14 12:29:32.394 GENERAL: working_dir=/home/anaws/ANAWS/GNS3/projects/anaws/project-files/dynamips
+Mar 14 12:29:32.394 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Mar 14 12:29:35.813 HYPERVISOR: exec_cmd: ethsw rename Switch1 AS3 
+Mar 14 12:31:26.372 HYPERVISOR: exec_cmd: nio create_udp udp-c348fdff-70a9-4734-9f42-c05ceb2beeb6 10024 127.0.0.1 10025 
+Mar 14 12:31:26.372 HYPERVISOR: exec_cmd: ethsw add_nio AS3 udp-c348fdff-70a9-4734-9f42-c05ceb2beeb6 
+Mar 14 12:31:26.378 HYPERVISOR: exec_cmd: ethsw set_access_port AS3 udp-c348fdff-70a9-4734-9f42-c05ceb2beeb6 1 
+Mar 14 12:35:41.532 HYPERVISOR: exec_cmd: ethsw set_access_port AS3 udp-c348fdff-70a9-4734-9f42-c05ceb2beeb6 1 
+Mar 14 12:35:48.878 HYPERVISOR: exec_cmd: ethsw set_access_port AS3 udp-c348fdff-70a9-4734-9f42-c05ceb2beeb6 1 
+Mar 14 12:35:53.247 HYPERVISOR: exec_cmd: ethsw set_access_port AS3 udp-c348fdff-70a9-4734-9f42-c05ceb2beeb6 1 
+Mar 14 12:35:55.039 HYPERVISOR: exec_cmd: ethsw set_access_port AS3 udp-c348fdff-70a9-4734-9f42-c05ceb2beeb6 1 
+Mar 14 12:35:57.181 HYPERVISOR: exec_cmd: ethsw set_access_port AS3 udp-c348fdff-70a9-4734-9f42-c05ceb2beeb6 1 
+Mar 14 12:35:57.417 HYPERVISOR: exec_cmd: ethsw set_access_port AS3 udp-c348fdff-70a9-4734-9f42-c05ceb2beeb6 1 
+Mar 14 12:35:57.718 HYPERVISOR: exec_cmd: ethsw set_access_port AS3 udp-c348fdff-70a9-4734-9f42-c05ceb2beeb6 1 
+Mar 14 12:35:57.783 HYPERVISOR: exec_cmd: ethsw set_access_port AS3 udp-c348fdff-70a9-4734-9f42-c05ceb2beeb6 1 
+Mar 14 12:35:59.406 HYPERVISOR: exec_cmd: ethsw set_access_port AS3 udp-c348fdff-70a9-4734-9f42-c05ceb2beeb6 1 
+Mar 14 12:38:17.908 HYPERVISOR: exec_cmd: nio create_udp udp-2a410c66-fb02-4b87-a082-8614784b22a4 10075 127.0.0.1 10074 
+Mar 14 12:38:17.908 HYPERVISOR: exec_cmd: ethsw add_nio AS3 udp-2a410c66-fb02-4b87-a082-8614784b22a4 
+Mar 14 12:38:17.914 HYPERVISOR: exec_cmd: ethsw set_access_port AS3 udp-2a410c66-fb02-4b87-a082-8614784b22a4 1 
+Mar 14 12:39:50.487 HYPERVISOR: exec_cmd: ethsw delete AS3 
+Mar 14 12:39:50.529 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 14 12:39:50.730 HYPERVISOR: Stopped.
+Mar 14 12:39:50.730 GENERAL: reset done.
