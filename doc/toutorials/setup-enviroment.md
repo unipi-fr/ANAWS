@@ -45,3 +45,21 @@ once started check if everithing is working
     - `http://localhost:8181/onos/ui` [(link)](http://localhost:8181/onos/ui)
 - REST API
     - `http://localhost:8181/onos/v1/docs128` [(link)](http://localhost:8181/onos/v1/docs128)
+
+### ONOS and GNS3
+the presence of ONOS in the GNS3 project will be carry aout with a cloud component, set up with a tap interface `host_tap`, devices can communicate to the controller throught that interface that must bue configure with this commands
+```
+ip addr add 192.168.100.10/24 dev host_tap
+ip link set dev host_tap up
+```
+
+## OVS
+In order to configure OpenVSwitches we assume that they will talk with the controller with interface `eth0`.<br>That interface will be manually set by OpenVSwitch network configuration file, which can be edit directly in GNS3 under `rught-click on the device -> Configure -> Network Configuration (last entry in the 'General Settings')`
+
+To be sure that the switch will use `eth0` olny for communicate with the controller we must ensure this commands
+```
+ovs-vsctl del-port eth0
+ovs-vsctl set-controller br0 tcp:192.168.100.10:6653
+ovs-vsctl set controller br0 connection-mode=out-of-band
+ovs-vsctl set controller br0 other-config:disable-in-band=true
+```
