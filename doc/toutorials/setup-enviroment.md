@@ -14,7 +14,8 @@ in order to install GNS3 following the istructions guide made by GNS3:
 #### After installation
 Opening GNS3 and make sure that all paths under:
 - Edit -> Preferences -> General (4 paths)
-- Edit -> Preferences -> Binary Images (1 path) 
+- Edit -> Preferences -> Binary Images (1 path)
+
 Will point all to the respectly folders contained in the repository under `GNS3/*`
 
 <details>
