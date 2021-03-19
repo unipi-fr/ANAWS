@@ -19,6 +19,7 @@ Will point all to the respectly folders contained in the repository under `GNS3/
 
 <details>
   <summary>Screenshots</summary>
+  
   ![Paths of General Preferences](./images/paths-general.png "Paths of General Preferences")
   ![Paths of Binary Images Preferences](./images/paths-binary-images.png "Paths of Binary Images Preferences")
 </details>
