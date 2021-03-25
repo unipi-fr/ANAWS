@@ -9,5 +9,5 @@ be sure that config module is activate in order to post the new configuration
 app activate org.onosproject.config
 ```
 S1 -> of:00007a037f62e943
-S3 -> of:000036ce1ed41c4a
+S2 -> of:000036ce1ed41c4a
 S3 -> of:000076ded54afc45

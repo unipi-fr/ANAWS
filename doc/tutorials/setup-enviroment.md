@@ -55,6 +55,7 @@ The last step is that we need to start 2 application in order to make use of Ope
 app activate org.onosproject.proxyarp
 app activate org.onosproject.openflow
 app activate org.onosproject.config
+app activate org.onosproject.sdnip
 ```
 Or from the ONOS GUI, access the application view, select the application you like to activate (`Proxy ARP/NDP` and `OpenFlow Provider Suite`), and click either the start or stop icons in the top-right corner of the screen.
 ### ONOS and GNS3
