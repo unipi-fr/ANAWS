@@ -8,6 +8,12 @@ In this document we will keep track of all the steps to carry out the project.
    
 ## OVS
 we assume that OpenVSwitches will talk with the controller with interface `eth0`.<br>The IP of that interface will be manually set by OpenVSwitch network configuration file, which can be edit directly in GNS3 under `rught-click on the device -> Configure -> Network Configuration (last entry in the 'General Settings')`
+```
+auto eth0
+iface eth0 inet static
+	address 192.168.100.X
+	netmask 255.255.255.0
+```
 
 To be sure that the switch will use `eth0` olny for communicate with the controller we must ensure this commands on each OVS
 ```
@@ -42,6 +48,12 @@ In the enviroment there will be 2 kinds of routers:
   - R3 `10.255.3.1/30` on interface `eth0`
   - R4 `10.255.4.1/30` on interface `eth0`
   - R5 `10.255.5.1/30` on interface `eth0`
+  - internal on interface `eth7`
+    - `10.255.1.2/30`
+    - `10.255.2.2/30`
+    - `10.255.3.2/30`
+    - `10.255.4.2/30`
+    - `10.255.5.2/30`
 </details>
 
 configure ip address `A.B.C.D/M` on a given interface `<eth*>` (from configuration mode)
@@ -57,15 +69,43 @@ give an ID to the router for the BGP sessions
 ```
 bgp router-id A.B.C.D
 ```
+announce a network `A.B.C.D/M`
+```
+network A.B.C.D/M
+```
+add a neighbor with ip `A.B.C.D` and AS number `X`
+```
+neighbor A.B.C.D remote-as X
+```
 <details>
   <summary>Chosen configuration</summary>
   
-  - R1 `10.0.1.1` with ASN = `1`
-  - R2 `10.0.2.1` with ASN = `1`
-  - R3 `10.0.3.1` with ASN = `2`
-  - R4 `10.0.4.1` with ASN = `2`
-  - R5 `10.0.5.1` with ASN = `3`
+  - R1 `1.1.1.1` with ASN = `1`
+  - R2 `2.2.2.2` with ASN = `1`
+  - R3 `3.3.3.3` with ASN = `2`
+  - R4 `4.4.4.4` with ASN = `2`
+  - R5 `5.5.5.5` with ASN = `3`
+  - internal `7.7.7.7` with ASN = `7`
 </details>
+
+
+#### Internal Router
+As said before we will have only internal router
+<details>
+  <summary>Configuration</summary>
+
+  #### IPs
+  - on interface `eth7`
+    - `10.255.1.2/30`
+    - `10.255.2.2/30`
+    - `10.255.3.2/30`
+    - `10.255.4.2/30`
+    - `10.255.5.2/30`
+  - on interface `eth0`
+    - `192.168.100.70/24`
+
+</details>
+
 
 ## VIrtual Hosts
 To configure ip on virtual host given ip address `A.B.C.D/M` and default gateway ip = `X.Y.W.Z` , open a console and issue

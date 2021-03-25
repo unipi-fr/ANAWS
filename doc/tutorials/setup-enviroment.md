@@ -32,7 +32,7 @@ docker pull onosproject/onos
 ```
 Create ONOS Docker
 ```
-docker run -t -d -p 8181:8181 -p 8101:8101 -p 5005:5005 -p 830:830 -p 6653:6653 --name onos onosproject/onos
+docker run -t -d -p 8181:8181 -p 8101:8101 -p 5005:5005 -p 830:830 -p 6653:6653 -p 179:2000 --name onos onosproject/onos
 ```
 If controller alredy present just start it
 ```
@@ -54,6 +54,7 @@ The last step is that we need to start 2 application in order to make use of Ope
 ```
 app activate org.onosproject.proxyarp
 app activate org.onosproject.openflow
+app activate org.onosproject.config
 ```
 Or from the ONOS GUI, access the application view, select the application you like to activate (`Proxy ARP/NDP` and `OpenFlow Provider Suite`), and click either the start or stop icons in the top-right corner of the screen.
 ### ONOS and GNS3
