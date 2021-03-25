@@ -36,7 +36,7 @@
                         "name" : "internal",
                         "connectPoint" : "of:000076ded54afc45/8",
                         "peers" : [
-                            "10.255.1.1"
+                            "192.168.100.11"
                         ]
                     }
                 ]

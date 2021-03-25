@@ -102,7 +102,7 @@ As said before we will have only internal router
     - `10.255.4.2/30`
     - `10.255.5.2/30`
   - on interface `eth0`
-    - `192.168.100.70/24`
+    - `192.168.100.11/24`
 
 </details>
 

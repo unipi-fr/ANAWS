@@ -1413,11 +1413,6 @@
                             "type": "ethernet"
                         },
                         {
-                            "name": "vetheb2dc8c",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
                             "name": "virbr0",
                             "special": true,
                             "type": "ethernet"
@@ -1487,7 +1482,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "7da528dfcbde0be4b6ff787799bb799304a91c4891ec66594fed8b1de72dfa3d",
+                    "container_id": "0a678e8268666afd92d0f98cb2529531fcc708ee4e5a430352bbf9058b124acd",
                     "environment": "",
                     "extra_hosts": "",
                     "extra_volumes": [],
@@ -1609,7 +1604,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "b934261f2c4b70e0f0a7748a56fa975dbebcb4777bef2c89a6880e9053c8039c",
+                    "container_id": "007fb8c974f43e99fd86789b596463461596d9790369ba4d40df9ea1e8b7cd39",
                     "environment": "",
                     "extra_hosts": "",
                     "extra_volumes": [],
@@ -1694,7 +1689,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5006,
+                "console": 5016,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -1715,11 +1710,11 @@
                 "port_segment_size": 0,
                 "properties": {
                     "adapters": 16,
-                    "aux": 5007,
+                    "aux": 5017,
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "f602cdd413eedbd18722e691b19347f3901b302df37325c99e54cf861ecd9cd4",
+                    "container_id": "fce78d7f3addbeb2b1848788e34755eed62ee51a4f47668dbc71ae41877286ff",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
