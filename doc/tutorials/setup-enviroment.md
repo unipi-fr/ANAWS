@@ -61,8 +61,8 @@ Or from the ONOS GUI, access the application view, select the application you li
 ### ONOS and GNS3
 the presence of ONOS in the GNS3 project will be carry out with a cloud component, set up with a tap interface `host_tap`, devices can communicate to the controller throught that interface that must be configure from the host machine with those commands
 ```
-ip addr add 192.168.100.10/24 dev host_tap
-ip link set dev host_tap up
+sudo ip addr add 192.168.100.10/24 dev host_tap
+sudo ip link set dev host_tap up
 ```
 better if you add in file`/etc/network/interfaces` (for Ubuntu)
 ```

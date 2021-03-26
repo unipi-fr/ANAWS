@@ -1,0 +1,21 @@
+Mar 26 14:32:02.561 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Mar 26 14:32:02.561 HYPERVISOR: Started on TCP port = 36269.
+Mar 26 14:32:02.573 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 26 14:32:02.574 HYPERVISOR: exec_cmd: hypervisor working_dir /home/anaws/ANAWS/GNS3/projects/anaws/project-files/dynamips 
+Mar 26 14:32:02.574 GENERAL: working_dir=/home/anaws/ANAWS/GNS3/projects/anaws/project-files/dynamips
+Mar 26 14:32:02.575 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Mar 26 14:32:03.741 HYPERVISOR: exec_cmd: nio create_udp udp-0264aa07-212e-452e-96dd-e4f369736914 10017 127.0.0.1 10016 
+Mar 26 14:32:03.741 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-0264aa07-212e-452e-96dd-e4f369736914 
+Mar 26 14:32:03.759 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-0264aa07-212e-452e-96dd-e4f369736914 1 
+Mar 26 14:32:03.818 HYPERVISOR: exec_cmd: nio create_udp udp-54986c85-f82b-4316-b479-92ed5b37620c 10018 127.0.0.1 10019 
+Mar 26 14:32:03.818 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-54986c85-f82b-4316-b479-92ed5b37620c 
+Mar 26 14:32:03.840 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-54986c85-f82b-4316-b479-92ed5b37620c 1 
+Mar 26 14:32:03.940 HYPERVISOR: exec_cmd: nio create_udp udp-231f4376-100b-4087-b05a-0c8e9bbc267f 10021 127.0.0.1 10020 
+Mar 26 14:32:03.940 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-231f4376-100b-4087-b05a-0c8e9bbc267f 
+Mar 26 14:32:03.942 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-231f4376-100b-4087-b05a-0c8e9bbc267f 1 
+Mar 26 14:32:04.342 HYPERVISOR: exec_cmd: nio create_udp udp-ec49bdff-ebad-4642-a4c0-22f45938d358 10031 127.0.0.1 10030 
+Mar 26 14:32:04.343 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-ec49bdff-ebad-4642-a4c0-22f45938d358 
+Mar 26 14:32:04.356 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-ec49bdff-ebad-4642-a4c0-22f45938d358 1 
+Mar 26 14:32:04.676 HYPERVISOR: exec_cmd: nio create_udp udp-7425d3e9-5e29-4bae-8ea9-382310a9344a 10039 127.0.0.1 10038 
+Mar 26 14:32:04.677 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-7425d3e9-5e29-4bae-8ea9-382310a9344a 
+Mar 26 14:32:04.684 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-7425d3e9-5e29-4bae-8ea9-382310a9344a 1 

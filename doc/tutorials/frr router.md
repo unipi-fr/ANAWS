@@ -1,10 +1,4 @@
 # Useful commands for frr router
-
-
-```
-comandi da copiare
-```
-
 ## Start reload etc...
 
 this command will follow what it is indicated in /etc/frr/frr.conf

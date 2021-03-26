@@ -1,0 +1,20 @@
+Mar 26 14:32:01.886 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Mar 26 14:32:01.886 HYPERVISOR: Started on TCP port = 40903.
+Mar 26 14:32:01.891 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 26 14:32:01.893 HYPERVISOR: exec_cmd: hypervisor working_dir /home/anaws/ANAWS/GNS3/projects/anaws/project-files/dynamips 
+Mar 26 14:32:01.893 GENERAL: working_dir=/home/anaws/ANAWS/GNS3/projects/anaws/project-files/dynamips
+Mar 26 14:32:01.895 HYPERVISOR: exec_cmd: ethsw create AS1 
+Mar 26 14:32:02.842 HYPERVISOR: exec_cmd: nio create_udp udp-243793fd-4538-4c98-9aab-0e0d7d220348 10001 127.0.0.1 10000 
+Mar 26 14:32:02.842 HYPERVISOR: exec_cmd: ethsw add_nio AS1 udp-243793fd-4538-4c98-9aab-0e0d7d220348 
+Mar 26 14:32:03.058 HYPERVISOR: exec_cmd: ethsw set_access_port AS1 udp-243793fd-4538-4c98-9aab-0e0d7d220348 1 
+Mar 26 14:32:03.117 HYPERVISOR: exec_cmd: nio create_udp udp-ee459bac-cc21-46d5-bdd2-49e3cc407256 10002 127.0.0.1 10003 
+Mar 26 14:32:03.117 HYPERVISOR: exec_cmd: ethsw add_nio AS1 udp-ee459bac-cc21-46d5-bdd2-49e3cc407256 
+Mar 26 14:32:03.135 HYPERVISOR: exec_cmd: ethsw set_access_port AS1 udp-ee459bac-cc21-46d5-bdd2-49e3cc407256 1 
+Mar 26 14:32:03.206 HYPERVISOR: exec_cmd: nio create_udp udp-344b40bd-32b5-4c64-80f9-26206f7352eb 10004 127.0.0.1 10005 
+Mar 26 14:32:03.206 HYPERVISOR: exec_cmd: ethsw add_nio AS1 udp-344b40bd-32b5-4c64-80f9-26206f7352eb 
+Mar 26 14:32:03.222 HYPERVISOR: exec_cmd: ethsw set_access_port AS1 udp-344b40bd-32b5-4c64-80f9-26206f7352eb 1 
+Mar 26 15:39:13.564 HYPERVISOR: exec_cmd: ethsw remove_nio AS1 udp-344b40bd-32b5-4c64-80f9-26206f7352eb 
+Mar 26 15:39:13.587 HYPERVISOR: exec_cmd: nio delete udp-344b40bd-32b5-4c64-80f9-26206f7352eb 
+Mar 26 15:39:33.494 HYPERVISOR: exec_cmd: nio create_udp udp-80e3f762-ebac-41ce-af9e-2a684a6dce07 10005 127.0.0.1 10004 
+Mar 26 15:39:33.497 HYPERVISOR: exec_cmd: ethsw add_nio AS1 udp-80e3f762-ebac-41ce-af9e-2a684a6dce07 
+Mar 26 15:39:33.512 HYPERVISOR: exec_cmd: ethsw set_access_port AS1 udp-80e3f762-ebac-41ce-af9e-2a684a6dce07 1 

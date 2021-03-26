@@ -1,0 +1,28 @@
+!
+frr version 7.3.1
+frr defaults traditional
+hostname internal
+service integrated-vtysh-config
+!
+interface eth0
+ ip address 192.168.100.11/24
+!
+interface eth7
+ ip address 10.255.1.2/30
+ ip address 10.255.2.2/30
+ ip address 10.255.3.2/30
+ ip address 10.255.4.2/30
+ ip address 10.255.5.2/30
+!
+router bgp 7
+ bgp router-id 7.7.7.7
+ neighbor 10.255.1.1 remote-as 1
+ neighbor 10.255.2.1 remote-as 1
+ neighbor 10.255.3.1 remote-as 2
+ neighbor 10.255.4.1 remote-as 2
+ neighbor 10.255.5.1 remote-as 3
+ neighbor 192.168.100.10 remote-as 7
+!
+line vty
+!
+end
