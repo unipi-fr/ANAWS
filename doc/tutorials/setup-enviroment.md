@@ -64,7 +64,7 @@ the presence of ONOS in the GNS3 project will be carry out with a cloud componen
 sudo ip addr add 192.168.100.10/24 dev host_tap
 sudo ip link set dev host_tap up
 ```
-better if you add in file`/etc/network/interfaces` (for Ubuntu)
+better if you add in file `/etc/network/interfaces` (for Ubuntu)
 ```
 auto host_tap
 iface host_tap inet static 
