@@ -9,22 +9,15 @@ interface eth0
 interface eth7
  ip address 192.168.1.1/24
 !
-route-map R1_MAP permit 10
+route-map R1_MED permit 10
  set metric 200
-!
-ip prefix-list P_LIST deny 192.168.2.0/24
-ip prefix-list P_LIST permit 0.0.0.0/0
-!
-route-map AS2_ROUTER_MAP permit 10
- match ip address prefix-list P_LIST
 !
 router bgp 1
  bgp router-id 1.1.1.1
  neighbor 10.255.1.2 remote-as 7
  network 192.168.1.0/24
  address-family ipv4 unicast
-  neighbor 10.255.1.2 route-map R1_MAP out
-  neighbor 10.255.1.2 route-map AS2_ROUTER_MAP in
+  neighbor 10.255.1.2 route-map R1_MED out
  exit-address-family
 !
 line vty
