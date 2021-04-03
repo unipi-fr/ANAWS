@@ -3,6 +3,8 @@ frr defaults traditional
 hostname R2
 service integrated-vtysh-config
 !
+ip route 0.0.0.0/0 eth0
+!
 interface eth0
  ip address 10.255.2.1/30
 !
