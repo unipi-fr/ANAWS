@@ -8,5 +8,5 @@ This repository was made for hosting all files and instructions to build the net
 - R1 only knows AS2
 - R2 only knows AS3
 - R3 only knows AS1
-- R4 only knows AS1
+- R4 only knows AS3
 - R5 knows both AS1 and AS2
